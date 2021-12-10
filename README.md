@@ -1,1 +1,2 @@
-<img> src="https://c.tenor.com/bP1D4RbZYuQAAAAC/ninja-gaiden.gif" </img>
+
+<p align="center"><img alt="https://c.tenor.com/bP1D4RbZYuQAAAAC/ninja-gaiden.gif" width="250px" src="https://c.tenor.com/bP1D4RbZYuQAAAAC/ninja-gaiden.gif" /></p>

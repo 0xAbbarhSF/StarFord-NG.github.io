@@ -1,0 +1,652 @@
+<!DOCTYPE html> <html class=">
+ <head><script src='//production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js'></script><script src='//production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js'></script><script src='//production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js'></script><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="//production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" /><link rel="mask-icon" type="" href="//production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" /><link rel="canonical" href="https://codepen.io/cr4shcod3/pen/ZKGoVz" />
+<title>./StarFord Nation</title>
+<link rel="SHORTCUT ICON" href="https://i68.tinypic.com/65si9x.jpg" type="image/x-icon"/>
+<link href='https://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
+<link href ="https://fonts.googleapis.com/css?family=Sarpanch:700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=play" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+
+<script>alert("This Site Has Been Hacked By StarFord Ass AKA Your DAD");</script>
+
+
+
+
+
+</head>
+
+<style class="cp-pen-styles">* {
+    margin: 0;
+    padding: 0;
+
+body{
+		background-image: url('https://64.media.tumblr.com/b26b1703ad6578ff017343c866f938e0/tumblr_ootr3fePaf1vsjcxvo1_640.gifv');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+
+header {
+    background-color:rgba(33, 33, 33, 0.9);
+    color:#ffffff;
+    display:block;
+    font: 14px/1.3 Arial,sans-serif;
+    height:50px;
+    position:relative;
+    z-index:5;
+}
+h1{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-family: Nosifer;
+    text-shadow: 0 0 0.5em red, 0 0 0.5em blue;
+}
+
+.we-are {
+    color: red;
+    font-size: 20px;
+	  text-shadow: #000 2px 2px 2px;
+	  letter-spacing: 2px;
+}
+
+.message {
+    color: white;
+    -webkit-animation: fadeIn 1s ease-in;
+    animation: fadeIn 1s ease-in;
+}
+
+.cn {
+    color: white;
+    font-size: 14px;
+	  text-shadow: #000 2px 2px 2px;
+	  letter-spacing: 2px;
+    -webkit-animation: fadeIn 3s ease-in;
+    animation: fadeIn 1s ease-in;
+}
+
+-webkit-@keyframes we-are {
+    from {scale: 1.1;}
+    to {scale: 0;}
+}
+
+@keyframes we-are {
+    from {scale: 1.1;}
+    to {scale: 0;}
+}
+
+-webkit-@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+} 
+
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+} 
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.clouds{
+    background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
+    background-repeat: no-repeat;
+    z-index:3;
+
+  -moz-animation:move-clouds-back 200s linear infinite;
+  -ms-animation:move-clouds-back 200s linear infinite;
+  -o-animation:move-clouds-back 200s linear infinite;
+  -webkit-animation:move-clouds-back 200s linear infinite;
+  animation:move-clouds-back 200s linear infinite;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.text {
+  font-weight: 100;
+  font-size: 28px;
+  color: #FAFAFA;
+  font-family: Iceland;
+  text-shadow: 0 0 0.5em cyan, 0 0 0.5em cyan;
+  
+}
+.dud {
+  color: #757575;
+}
+
+.animation-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.animation-container span {
+  color: whitesmoke;
+  display: block;
+  font-size: 18px;
+  font-family: 'Helvetica';
+  text-shadow: 0 0 1px white;
+  position: absolute;
+  user-select: none;
+  pointer-events: none;
+  cursor: default;
+  z-index: 1;
+  opacity: 0;
+  will-change: transform, opacity;
+  animation-timing-function: ease-out;
+  animation-name: move;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+    transform: translateY(100vh);
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    transform: none;
+  }
+}
+.buzz_wrapper{
+  position:relative;
+  width:100%;
+  margin:180px auto;
+  background-attachment: fixed;
+        background-image: url(https://64.media.tumblr.com/b26b1703ad6578ff017343c866f938e0/tumblr_ootr3fePaf1vsjcxvo1_640.gifv);
+		background-position: 0 0; 
+        background-repeat: no-repeat ;  
+        background-size:cover;
+        overflow : hidden;
+  overflow:hidden;
+  padding:100px;
+}
+.scanline{
+  width:100%;
+  display:block;
+  background:#000;
+  height:4px;
+  position:relative;
+  z-index:3;
+  margin-bottom:5px;
+  opacity:0.1;
+}
+.buzz_wrapper span{
+  position:absolute;
+  -webkit-filter: blur(1px);
+  font-size:30px;
+  font-family:'Courier new', fixed;
+  font-weight:bold;
+}
+.buzz_wrapper span:nth-child(1){
+  color:red;
+  margin-left:-2px;
+  -webkit-filter: blur(2px);
+}
+.buzz_wrapper span:nth-child(2){
+  color:green;
+  margin-left:2px;
+  -webkit-filter: blur(2px);
+}
+.buzz_wrapper span:nth-child(3){
+  color:blue;
+  position:20px 0;
+  -webkit-filter: blur(1px);
+}
+.buzz_wrapper span:nth-child(4){
+  color:#fff;
+  -webkit-filter: blur(1px);
+  text-shadow:0 0 50px rgba(255,255,255,0.4);
+}
+.buzz_wrapper span:nth-child(5){
+  color:rgba(255,255,255,0.4);
+  -webkit-filter: blur(15px);
+}
+
+.buzz_wrapper span{
+  -webkit-animation: blur 30ms infinite, jerk 50ms infinite;
+}
+
+@-webkit-keyframes blur {
+  0%   { -webkit-filter: blur(1px); opacity:0.8;}
+  50% { -webkit-filter: blur(1px); opacity:1; }
+  100%{ -webkit-filter: blur(1px); opacity:0.8; }
+}
+@-webkit-keyframes jerk {
+  50% { left:1px; }
+  51% { left:0; }
+}
+@-webkit-keyframes jerkup {
+  50% { top:1px; }
+  51% { top:0; }
+}
+
+.buzz_wrapper span:nth-child(3){
+  -webkit-animation: jerkblue 1s infinite;
+}
+@-webkit-keyframes jerkblue {
+  0% { left:0; }
+  30% { left:0; }
+  31% { left:10px; }
+  32% { left:0; }
+  98% { left:0; }
+  100% { left:10px; }
+}
+.buzz_wrapper span:nth-child(2){
+  -webkit-animation: jerkgreen 1s infinite;
+}
+@-webkit-keyframes jerkgreen {
+  0% { left:0; }
+  30% { left:0; }
+  31% { left:-10px; }
+  32% { left:0; }
+  98% { left:0; }
+  100% { left:-10px; }
+}
+
+.buzz_wrapper .text{
+  -webkit-animation: jerkwhole 5s infinite;
+  position:relative;
+}
+@-webkit-keyframes jerkwhole {
+  30% {  }
+  40% { opacity:1; top:0; left:0;  -webkit-transform:scale(1,1);  -webkit-transform:skew(0,0);}
+  41% { opacity:0.8; top:0px; left:-100px; -webkit-transform:scale(1,1.2);  -webkit-transform:skew(50deg,0);}
+  42% { opacity:0.8; top:0px; left:100px; -webkit-transform:scale(1,1.2);  -webkit-transform:skew(-80deg,0);}
+  43% { opacity:1; top:0; left:0; -webkit-transform:scale(1,1);  -webkit-transform:skew(0,0);}
+  65% { }
+}
+</style></head><body>
+<div style="position: fixed; top: 75px; left: -225px; width: 600px; padding: 10px; font-size: 24px; text-align: center; color: white; font-family: 'trebuchet ms', verdana, arial, sans-serif;transform: rotate(-45deg);transform-origin: 50% 0px;-o-transform: rotate(-45deg); -o-transform-origin: 50% 0px;-moz-transform: rotate(-45deg); -moz-transform-origin: 50% 0px; -webkit-transform: rotate(-45deg); -webkit-transform-origin: 50% 0px; background-color: Transparent; border: 1px solid rgb(170, 170, 170); z-index: 9999; opacity: 0.5;"><a href="https://www.facebook.com/c" style="text-decoration:none;color:white;"> ./StarFord 0xe3.x.x.x.x</a></div>
+<div class="stars">
+  <center>
+    <h1>./StarFord Dick, Pussy </h1>
+  </center>
+</div>
+<div class="twinkling">
+  <center><br><br><br>
+    <img src="https://i.ibb.co/G0HRnXm/Screenshot-20211231-153754-1.jpg"  width="250"/><br>
+    <div class="container">
+      <div class="text"></div>
+    </div><br><br><br>
+    <font face="Sarpanch" color="white" size"10" class="message">
+      |&nbsp;  It's better to have a Good Security NO more, than <font color="red">fooling </font>everyone including your selves & have one&nbsp;  | <br>
+      <img src="https://c.tenor.com/bP1D4RbZYuQAAAAS/ninja-gaiden.gif" align=center>
+    </font><br>
+    <font face="Sarpanch" color="white" size"10" class="message">#NONSENSE &bull; It only makes us <font color="red">SLOWER.</font><br><br>
+    <font face="Play">
+      <p class="we-are"><b>I am<font color="cyan"> a Good person<font color="white">:</b></p>
+    </font>
+    <font face="Play" class="cn">
+      -= ./StarFord<font color="cyan"> ./StarFord@hacked.go</font>
+    </font>
+  </center>
+</div>
+<div class="clouds">
+</div>
+<iframe width="1" height="1" src="https://www.youtube.com/embed/LApS9G22cIU?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+<script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
+<script >class TextScramble {
+  constructor(el) {
+    this.el = el
+    this.chars = 'Ø« ØµØ®Ù Ø®Øµ Ø®Øµ Ø®Ø«Ù Ø®Øµ'
+    this.update = this.update.bind(this)
+  }
+  setText(newText) {
+    const oldText = this.el.innerText
+    const length = Math.max(oldText.length, newText.length)
+    const promise = new Promise((resolve) => this.resolve = resolve)
+    this.queue = []
+    for (let i = 0; i < length; i++) {
+      const from = oldText[i] || ''
+      const to = newText[i] || ''
+      const start = Math.floor(Math.random() * 40)
+      const end = start + Math.floor(Math.random() * 40)
+      this.queue.push({ from, to, start, end })
+    }
+    cancelAnimationFrame(this.frameRequest)
+    this.frame = 0
+    this.update()
+    return promise
+  }
+  update() {
+    let output = ''
+    let complete = 0
+    for (let i = 0, n = this.queue.length; i < n; i++) {
+      let { from, to, start, end, char } = this.queue[i]
+      if (this.frame >= end) {
+        complete++
+        output += to
+      } else if (this.frame >= start) {
+        if (!char || Math.random() < 0.28) {
+          char = this.randomChar()
+          this.queue[i].char = char
+        }
+        output += `<span class="dud">${char}</span>`
+      } else {
+        output += from
+      }
+    }
+    this.el.innerHTML = output
+    if (complete === this.queue.length) {
+      this.resolve()
+    } else {
+      this.frameRequest = requestAnimationFrame(this.update)
+      this.frame++
+    }
+  }
+  randomChar() {
+    return this.chars[Math.floor(Math.random() * this.chars.length)]
+  }
+}
+
+const phrases = [
+  'Yes, I am a Fucken criminal Ass.',
+
+]
+
+const el = document.querySelector('.text')
+const fx = new TextScramble(el)
+
+let counter = 0
+const next = () => {
+  fx.setText(phrases[counter]).then(() => {
+    setTimeout(next, 1500)
+  })
+  counter = (counter + 1) % phrases.length
+}
+
+next()
+
+'use strict';
+
+var app = {
+
+  chars: ['','./StarFord','127.0.0.1','1337','','./StarFord'','Star Ford','HACKED!','Security','Breached!','System'],
+
+  init: function () {
+    app.container = document.createElement('div');
+    app.container.className = 'animation-container';
+    document.body.appendChild(app.container);
+    window.setInterval(app.add, 100);
+  },
+
+  add: function () {
+    var element = document.createElement('span');
+    app.container.appendChild(element);
+    app.animate(element);
+  },
+
+  animate: function (element) {
+    var character = app.chars[Math.floor(Math.random() * app.chars.length)];
+    var duration = Math.floor(Math.random() * 15) + 1;
+    var offset = Math.floor(Math.random() * (50 - duration * 2)) + 3;
+    var size = 10 + (15 - duration);
+    element.style.cssText = 'right:'+offset+'vw; font-size:'+size+'px;animation-duration:'+duration+'s';
+    element.innerHTML = character;
+    window.setTimeout(app.remove, duration * 1000, element);
+  },
+
+  remove: function (element) {
+    element.parentNode.removeChild(element);
+  },
+
+
+};
+
+document.addEventListener('DOMContentLoaded', app.init);
+//# sourceURL=pen.js
+</script>
+ <script> 
+    <meta charset="UTF-8"> 
+
+    <meta http-equiv="X-UA-Compatible" 
+
+            content="IE=edge"> 
+
+    <meta name="viewport" content= 
+
+        "width=device-width, initial-scale=1.0"> 
+</script>
+  
+
+    <!-- Set title of web page -->
+
+    <title>StarFord Discography and Statistics 💀</title> 
+
+  
+
+    <style> 
+
+           img {
+               align: center;
+               }
+          
+        /* Set the content of table  
+
+        using css properties */ 
+
+        table { 
+
+            width: 370px; 
+
+            margin: auto; 
+
+            text-align: center; 
+
+            table-layout: fixed; 
+
+        } 
+
+  
+
+        /* Applying css properties  
+
+        to table components */ 
+
+        table, 
+
+        td, 
+
+        tr { 
+
+            padding: 12px; 
+
+            color: solid black; 
+
+            background: red; 
+
+            border: 1px solid black; 
+
+            border-collapse: collapse; 
+
+            font-size: 13px; 
+
+            font-family: 'Lucida Console',  
+
+                'Lucida Sans Regular', 
+
+                'Lucida Grande',  
+
+                'Lucida Sans Unicode', 
+
+                Geneva, Verdana, sans-serif; 
+
+        } 
+
+  
+
+        /* Apply css properties to th */ 
+
+        th { 
+
+            color: white; 
+
+            border: 1px solid black; 
+
+            border-collapse: collapse; 
+
+            background: cadetblue; 
+
+        } 
+
+  
+
+        /* Apply hover effect to td */ 
+
+        td:hover { 
+
+            background: orangered; 
+
+        } 
+
+    </style> 
+
+    <!-- Creating the structure of table -->
+
+    <table> 
+
+        <tr> 
+
+            <!-- Creating heading of table -->
+
+            <th>Codding Langs</th> 
+
+            <th>Exploit Type</th> 
+
+            <th>Operating Sys</th> 
+
+            <th>Fav Lines</th> 
+
+        </tr> 
+
+          
+
+        <tr> 
+
+            <!-- Add 1st data to table -->
+
+            <td>Bash - Shell</td> 
+
+            <td>0-Day</td> 
+
+            <td>Unix - Linux</td> 
+
+            <td>All Caps No Space</td> 
+
+        </tr> 
+
+          
+
+        <tr> 
+
+            <!-- Add 2nd data to table -->
+
+            <td>Python</td> 
+
+            <td>Ransomware</td> 
+
+            <td>Ubuntu</td> 
+
+            <td>If your bad, am your Dad</td> 
+
+        </tr> 
+
+  
+
+        <tr> 
+
+            <!-- Add 3rd data to table -->
+
+            <td>JavaScript</td> 
+
+            <td>Web-Exploit</td> 
+
+            <td>Arch Linux</td> 
+
+            <td>Come get this bitch!</td> 
+
+        </tr> 
+
+    </table> 
+
+
+</body>
+  
+</html>
